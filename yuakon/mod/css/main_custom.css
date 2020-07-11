@@ -1,0 +1,14 @@
+.headerBarLeft {
+  background: url("../img/headerBarLeft.png");
+  border-radius: 0;
+  padding-right: 13px;
+}
+
+.headerBarRight {
+  background: url("../img/headerBarRight.png");
+  border-radius: 0;
+}
+
+.menuItem {
+  /* background: url(); */
+}
