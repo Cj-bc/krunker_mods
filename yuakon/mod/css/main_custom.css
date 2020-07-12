@@ -17,6 +17,14 @@
   background-image: url("../img/yuakon_general_hover.png");
 }
 
+.iconSocial {
+  background-image: url("../img/iconSocial.png");
+}
+
+.menuItem:hover .iconSocial {
+  background-image: url("../img/iconSocial_hover.png");
+}
+
 .menuItem {
   /* background: url(); */
 }
