@@ -9,6 +9,14 @@
   border-radius: 0;
 }
 
+.iconProfile {
+  background-image: url("../img/yuakon_general.png");
+}
+
+.menuItem:hover .iconProfile {
+  background-image: url("../img/yuakon_general_hover.png");
+}
+
 .menuItem {
   /* background: url(); */
 }
