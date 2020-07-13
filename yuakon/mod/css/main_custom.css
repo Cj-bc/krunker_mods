@@ -1,3 +1,30 @@
+:root {
+  --borderColor: rgba(105, 29, 39);
+  --YuakonColor: rgba(255, 179, 195);
+}
+
+/* In-game UIs {{{ */
+
+#killCard {
+  background-image:
+    url(../img/yuakon_bottomRight.png)
+    , linear-gradient(var(--borderColor) 0%, var(--borderColor) 5%
+                     , var(--YuakonColor) 5%, var(--YuakonColor) 90%
+                     , var(--borderColor) 90%, var(--borderColor) 95%
+                     , transparent 95%, transparent 100%)
+     ;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  border-radius: 30px;
+}
+
+#kCInfoS {
+  bottom: 100px;
+}
+
+/* }}} */
+/* Menu UIs */
+
 .headerBarLeft {
   background: url("../img/headerBarLeft.png");
   border-radius: 0;
