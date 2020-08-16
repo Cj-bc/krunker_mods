@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+* {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: auto;
+}
+
 :root {
   --borderColor: rgba(105, 29, 39);
   --YuakonColor: rgba(255, 179, 195);
